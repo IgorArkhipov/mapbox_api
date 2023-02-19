@@ -15,8 +15,8 @@ class MuseumsController < ApplicationController
 
   def matched_museums
     current_location = Position.new(
-      latitude: match_params[:lat].to_d,
-      longitude: match_params[:lng].to_d
+      latitude: match_params[:lat],
+      longitude: match_params[:lng]
     )
     return {} unless current_location.valid?
 
@@ -28,23 +28,16 @@ class MuseumsController < ApplicationController
     aggregate_by_postal_code(data[:features])
   end
 
-  # "features": [{
-  #   "text": "Macculloch Hall Historical Museum & Gardens",
-  #   "context": [{
-  #     "id": "postcode.21630700",
-  #     "text": "07960"
-  #   }]
-  # }]
   def aggregate_by_postal_code(features)
     features&.each_with_object({ missing_postcode: [] }) do |feature, acc|
       postcode_context = feature[:context].find { |context| context[:id].start_with?('postcode.') }
       if postcode_context
         postcode = postcode_context[:text]
-        acc[postcode] ||= []
-        acc[postcode] << feature[:text]
+        acc[postcode.to_sym] ||= []
+        acc[postcode.to_sym] << feature[:text]
       else
         acc[:missing_postcode] << feature[:text]
       end
-    end
+    end || {}
   end
 end

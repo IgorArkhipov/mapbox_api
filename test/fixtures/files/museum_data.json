@@ -1,0 +1,369 @@
+{
+  "type": "FeatureCollection",
+  "query": ["museum"],
+  "features": [{
+    "id": "poi.335007457030",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "foursquare": "4adcda81f964a520584821e3",
+      "address": "Lindenstr. 9-14",
+      "wikidata": "Q157003",
+      "landmark": true,
+      "category": "history museum, history, historical, museum, tourism"
+    },
+    "text": "Jüdisches Museum Berlin",
+    "place_name": "Jüdisches Museum Berlin, Lindenstr. 9-14, Berlin, 10969, Germany",
+    "center": [13.395398499999999, 52.501667499999996],
+    "geometry": {
+      "coordinates": [13.395398499999999, 52.501667499999996],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5566010",
+      "text": "10969"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.223338333950",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q700222",
+      "landmark": true,
+      "address": "Alte Jakobstr. 124-128",
+      "foursquare": "4adcda81f964a520784821e3",
+      "category": "art museum, art, museum, painting, art gallery, art galleries, galleries, gallery, museum, tourism"
+    },
+    "text": "Berlinische Galerie",
+    "place_name": "Berlinische Galerie, Alte Jakobstr. 124-128, Berlin, 10969, Germany",
+    "center": [13.3982515, 52.503697],
+    "geometry": {
+      "coordinates": [13.3982515, 52.503697],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5566010",
+      "text": "10969"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.498216230753",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "foursquare": "58b97ee4000bef4879a0baf5",
+      "landmark": true,
+      "address": "Oberbaumstr. 5",
+      "category": "museum, tourism"
+    },
+    "text": "R.M.C.M Ramones Museum",
+    "place_name": "R.M.C.M Ramones Museum, Oberbaumstr. 5, Berlin, 10997, Germany",
+    "center": [13.443235, 52.501095],
+    "geometry": {
+      "coordinates": [13.443235, 52.501095],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5574202",
+      "text": "10997"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.292057838835",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q819081",
+      "address": "Niederkirchnerstr. 8",
+      "landmark": true,
+      "foursquare": "4adcda83f964a520944821e3",
+      "category": "history museum, history, historical, museum, tourism"
+    },
+    "text": "Topographie des Terrors",
+    "place_name": "Topographie des Terrors, Niederkirchnerstr. 8, Berlin, 10963, Germany",
+    "center": [13.3836505, 52.506642],
+    "geometry": {
+      "coordinates": [13.3836505, 52.506642],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5541434",
+      "text": "10963"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.773094129858",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q573322",
+      "landmark": true,
+      "address": "Karl-Liebknecht-Str. 1",
+      "foursquare": "4ae9c897f964a52062b621e3",
+      "category": "history museum, history, historical, museum, tourism"
+    },
+    "text": "DDR Museum",
+    "place_name": "DDR Museum, Karl-Liebknecht-Str. 1, Berlin, 10178, Germany",
+    "center": [13.4022295, 52.519422000000006],
+    "geometry": {
+      "coordinates": [13.4022295, 52.519422000000006],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5131834",
+      "text": "10178"
+    }, {
+      "id": "locality.215001658",
+      "wikidata": "Q2013767",
+      "text": "Mitte"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.1159641173317",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "foursquare": "4adcda83f964a520b24821e3",
+      "address": "Bodestr. 1-3",
+      "wikidata": "Q157316",
+      "landmark": true,
+      "category": "art museum, art, museum, painting, art gallery, art galleries, galleries, gallery, museum, tourism"
+    },
+    "text": "Neues Museum",
+    "place_name": "Neues Museum, Bodestr. 1-3, Berlin, 10178, Germany",
+    "center": [13.3977305, 52.520208999999994],
+    "geometry": {
+      "coordinates": [13.3977305, 52.520208999999994],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5131834",
+      "text": "10178"
+    }, {
+      "id": "locality.215001658",
+      "wikidata": "Q2013767",
+      "text": "Mitte"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.936302915887",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q196970",
+      "landmark": true,
+      "address": "Unter den Linden 2",
+      "foursquare": "4adcda7ff964a520e24721e3",
+      "category": "history museum, history, historical, museum, tourism"
+    },
+    "text": "Zeughaus",
+    "place_name": "Zeughaus, Unter den Linden 2, Berlin, 10117, Germany",
+    "center": [13.397123375, 52.51778875],
+    "geometry": {
+      "coordinates": [13.397123375, 52.51778875],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5115450",
+      "text": "10117"
+    }, {
+      "id": "locality.215001658",
+      "wikidata": "Q2013767",
+      "text": "Mitte"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.352187321082",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q569445",
+      "address": "Niederkirchnerstr. 7",
+      "landmark": true,
+      "foursquare": "4adcda83f964a520b04821e3",
+      "category": "art museum, art, museum, painting, art gallery, art galleries, galleries, gallery, museum, tourism"
+    },
+    "text": "Martin-Gropius-Bau",
+    "place_name": "Martin-Gropius-Bau, Niederkirchnerstr. 7, Berlin, 10963, Germany",
+    "center": [13.381815, 52.506728499999994],
+    "geometry": {
+      "coordinates": [13.381815, 52.506728499999994],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5541434",
+      "text": "10963"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.352187422750",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "wikidata": "Q162111",
+      "landmark": true,
+      "address": "Bodestr. 1-3",
+      "foursquare": "4adcda7cf964a520594721e3",
+      "category": "art museum, art, museum, painting, art gallery, art galleries, galleries, gallery, museum, tourism"
+    },
+    "text": "Alte Nationalgalerie",
+    "place_name": "Alte Nationalgalerie, Bodestr. 1-3, Berlin, 10178, Germany",
+    "center": [13.3983645, 52.5208145],
+    "geometry": {
+      "coordinates": [13.3983645, 52.5208145],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5131834",
+      "text": "10178"
+    }, {
+      "id": "locality.215001658",
+      "wikidata": "Q2013767",
+      "text": "Mitte"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }, {
+    "id": "poi.618475320918",
+    "type": "Feature",
+    "place_type": ["poi"],
+    "relevance": 1,
+    "properties": {
+      "foursquare": "4d29e6be467d6ea8bf89d395",
+      "landmark": true,
+      "wikidata": "Q854289",
+      "address": "Adalbertstr. 95a",
+      "category": "museum, tourism"
+    },
+    "text": "FHXB Friedrichshain Kreuzberg Museum",
+    "place_name": "FHXB Friedrichshain Kreuzberg Museum, Adalbertstr. 95a, Berlin, 10999, Germany",
+    "center": [13.418520000000001, 52.500491999999994],
+    "geometry": {
+      "coordinates": [13.418520000000001, 52.500491999999994],
+      "type": "Point"
+    },
+    "context": [{
+      "id": "postcode.5582394",
+      "text": "10999"
+    }, {
+      "id": "locality.181160506",
+      "text": "Kreuzberg"
+    }, {
+      "id": "place.115770",
+      "short_code": "DE-BE",
+      "wikidata": "Q64",
+      "text": "Berlin"
+    }, {
+      "id": "country.8762",
+      "short_code": "de",
+      "wikidata": "Q183",
+      "text": "Germany"
+    }]
+  }],
+  "attribution": "NOTICE: © 2023 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}

@@ -19,15 +19,13 @@ module Repositories
 
         Rails.logger.error(error_message)
 
-        {}
+        raise error_message
       end
 
       def handle_success(response)
         return {} if response.body.blank?
 
         JSON.parse(response.body, symbolize_names: true)
-      rescue StandardError
-        {}
       end
     end
   end

@@ -19,6 +19,8 @@ class MuseumRepository
       )
 
       handle_response(response)
+    rescue StandardError
+      {}
     end
   end
 end

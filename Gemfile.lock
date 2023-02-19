@@ -104,6 +104,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.17.0)
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
     msgpack (1.6.0)
     net-imap (0.3.4)
       date
@@ -170,6 +172,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.26.0)
       parser (>= 3.2.1.0)
+    rubocop-minitest (0.27.0)
+      rubocop (>= 0.90, < 2.0)
     rubocop-rails (2.17.4)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
@@ -195,9 +199,11 @@ DEPENDENCIES
   debug
   faraday
   httpx
+  mocha
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rubocop
+  rubocop-minitest
   rubocop-rails
   sqlite3 (~> 1.4)
   tzinfo-data
