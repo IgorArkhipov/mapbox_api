@@ -58,12 +58,12 @@ class MuseumsControllerTest < ActionDispatch::IntegrationTest
     features = JSON.parse(
       File.read('test/fixtures/files/museum_data.json'), symbolize_names: true
     )[:features]
-    result = { missing_postcode: [],
+    result = { missing_postcode: ['FHXB Friedrichshain Kreuzberg Museum'],
                '10969': ['Jüdisches Museum Berlin', 'Berlinische Galerie'],
                '10997': ['R.M.C.M Ramones Museum'],
                '10963': ['Topographie des Terrors', 'Martin-Gropius-Bau'],
                '10178': ['DDR Museum', 'Neues Museum', 'Alte Nationalgalerie'],
-               '10117': ['Zeughaus'], '10999': ['FHXB Friedrichshain Kreuzberg Museum'] }
+               '10117': ['Zeughaus'] }
 
     assert_equal result, @controller.send(:aggregate_by_postal_code, features)
   end
